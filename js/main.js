@@ -1,7 +1,13 @@
-var menu = document.querySelector('#mainav ul');
-function menuBurger(x) {
-    x.classList.toggle("change");
-}
+var burgerMenu = document.querySelector('.burger_container');
+var mainNav = document.querySelector('#mainav ul');
+
+burgerMenu.addEventListener('click', function() {
+	if (mainNav.style.display === "none") {
+		mainNav.style.display = "block";
+	} else {
+		mainNav.style.display = "none";
+	}
+});
 
 var headerTop = document.querySelector('.headerTop');
 var savePosScroll = 133;
