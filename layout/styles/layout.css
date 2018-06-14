@@ -3,6 +3,10 @@
 @import url("framework.css");
 /* Top Bar --------------------------------------------------------------------------------------------------------------- */
 
+#top .bgded {
+	background-image:url('../../images/demo/backgrounds/01.png');
+}
+
 #topbar {
   padding: 15px 0;
   font-size: .8rem;
