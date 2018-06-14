@@ -76,6 +76,13 @@
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+    #pageintro ul {
+        display: flex;
+				justify-content: space-between;
+    }
+}
+
 /* Content Area --------------------------------------------------------------------------------------------------------------- */
 
 .container {
